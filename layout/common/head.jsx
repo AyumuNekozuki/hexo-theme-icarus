@@ -124,12 +124,12 @@ module.exports = class extends Component {
                 images={openGraphImages}
                 siteName={open_graph.site_name || config.title}
                 language={language}
-                twitterId={open_graph.twitter_id}
-                twitterCard={open_graph.twitter_card}
-                twitterSite={open_graph.twitter_site}
                 googlePlus={open_graph.google_plus}
                 facebookAdmins={open_graph.fb_admins}
                 facebookAppId={open_graph.fb_app_id} /> : null}
+            <meta name="twitter:card" content="summary" />
+            <meta name="twitter:site" content="@nekozuki_2525" />
+            <meta name="twitter:creator" content="@nekozuki_2525" />
 
             {typeof structured_data === 'object' && structured_data !== null ? <StructuredData
                 title={structured_data.title || config.title}
