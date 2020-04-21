@@ -35,7 +35,7 @@ head:
         # You should leave this blank for most of the time
         description: 猫月あゆむの過去ログ倉庫
         # Twitter card type (twitter:card)
-        twitter_card: card
+        twitter_card: summary
         # Twitter ID (twitter:creator)
         twitter_id: nekozuki_2525
         # Twitter ID (twitter:creator)
