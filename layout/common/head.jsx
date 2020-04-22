@@ -147,6 +147,9 @@ module.exports = class extends Component {
             <link rel="stylesheet" href={url_for('/css/' + variant + '.css')} />
             <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.13.0/css/all.css" />
             <link rel="stylesheet" href="/fonts/icomoon-style.css" />
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Kosugi+Maru&display=swap" />
+
+
             <Plugins site={site} config={config} helper={helper} page={page} head={true} />
 
             {adsenseClientId ? <script data-ad-client={adsenseClientId}

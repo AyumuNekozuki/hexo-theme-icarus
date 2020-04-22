@@ -80,7 +80,6 @@ navbar:
 #        Categories: /categories
         Tags: /tags
         About: /about
-        猫月あゆむPORTAL(β): https://nekozuki.me
     # Links to be shown on the right of the navigation bar
 #    links:
 #        Twitter:
@@ -283,7 +282,7 @@ plugins:
     # https://analytics.google.com
     google_analytics:
         # Google Analytics tracking ID
-        tracking_id: 
+        tracking_id: UA-154884607-2
     # Hotjar user feedback plugin
     # https://www.hotjar.com/
     hotjar:
