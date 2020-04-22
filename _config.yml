@@ -24,7 +24,7 @@ head:
         url: https://blog.nekozuki.me
         # Page cover (og:image) (optional) Default to the Open Graph image or thumbnail of the page
         # You should leave this blank for most of the time
-        image: /img/favicon.png
+        image: https://blog.nekozuki.me/img/favicon.png
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
         site_name: ねころぐ
@@ -150,10 +150,10 @@ search:
 #        qrcode: ''
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
-#share:
-#    type: sharethis
+share:
+    type: sharethis
     # URL to the ShareThis share plugin script
-#    install_url: ''
+    install_url: 'https://platform-api.sharethis.com/js/sharethis.js#property=5ea005b5ca2a9c0012f8d248&product=inline-share-buttons'
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -180,7 +180,7 @@ widgets:
         # Author's current location
 #        location: 
         # URL or path to the avatar image
-        avatar: https://media.discordapp.net/attachments/542501461439938596/702145956615028817/2_icon.png
+        avatar: /img/avater.png
         # Whether show the rounded avatar image
         avatar_rounded: true
         # Email address for the Gravatar

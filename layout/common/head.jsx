@@ -129,7 +129,6 @@ module.exports = class extends Component {
                 facebookAppId={open_graph.fb_app_id} /> : null}
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:site" content="@nekozuki_2525" />
-            <meta name="twitter:creator" content="@nekozuki_2525" />
 
             {typeof structured_data === 'object' && structured_data !== null ? <StructuredData
                 title={structured_data.title || config.title}
