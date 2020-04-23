@@ -157,6 +157,8 @@ module.exports = class extends Component {
 
             <link rel="manifest" href="manifest.webmanifest" />
             <script async src="https://unpkg.com/pwacompat" crossorigin="anonymous" />
+
+            <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous" />
             
         </head>;
     }
