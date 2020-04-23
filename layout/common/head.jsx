@@ -153,7 +153,10 @@ module.exports = class extends Component {
             <Plugins site={site} config={config} helper={helper} page={page} head={true} />
 
             {adsenseClientId ? <script data-ad-client={adsenseClientId}
-                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async={true}></script> : null}
+                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async={true} /> : null}
+
+            <link rel="manifest" href="manifest.webmanifest" />
+            <script async src="https://unpkg.com/pwacompat" crossorigin="anonymous" />
             
         </head>;
     }
