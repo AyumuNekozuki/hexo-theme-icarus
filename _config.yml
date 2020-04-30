@@ -15,13 +15,13 @@ head:
     open_graph:
         # Page title (og:title) (optional)
         # You should leave this blank for most of the time
-        title: ねころぐ
+        title: 
         # Page type (og:type) (optional)
         # You should leave this blank for most of the time
         type: blog
         # Page URL (og:url) (optional)
         # You should leave this blank for most of the time
-        url: https://blog.nekozuki.me
+        url: 
         # Page cover (og:image) (optional) Default to the Open Graph image or thumbnail of the page
         # You should leave this blank for most of the time
         image: https://blog.nekozuki.me/img/favicon.png
@@ -33,7 +33,7 @@ head:
         author: 猫月あゆむ
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
-        description: 猫月あゆむの過去ログ倉庫
+        description: ねころぐ - 猫月あゆむの過去ログ倉庫
         # Twitter card type (twitter:card)
         twitter_card: summary
         # Twitter ID (twitter:creator)
