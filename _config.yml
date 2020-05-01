@@ -188,12 +188,12 @@ widgets:
         follow_link: 'https://twitter.com/nekozuki_2525'
         # Links to be shown on the bottom of the profile widget
         social_links:
-            Github:
-                icon: fab fa-github
-                url: 'https://github.com/AyumuNekozuki'
             Twitter:
                 icon: fab fa-twitter
                 url: 'https://twitter.com/nekozuki_2525'
+            friends.cafe:
+                icon: fab fa-mastodon
+                url: 'https://friends.cafe/@nekozuki_2525'
             niconico:
                 icon: icon2-niconico
                 url: 'https://www.nicovideo.jp/user/45048152'
@@ -212,10 +212,10 @@ widgets:
         type: links
         # Names and URLs of the sites
         links:
-            Twitter: 'https://twitter.com/nekozuki_2525'
-            niconico: 'https://nicovideo.jp/user/45048152'
-            猫月あゆむPORTAL(β): 'https://nekozuki.me'
+            Github: 'https://github.com/AyumuNekozuki'
+            猫月あゆむポータルサイト: 'https://nekozuki.me'
             リンク集: 'https://nekozuki.me/links'
+            niconico: 'https://nicovideo.jp/user/45048152'
     # Categories widget configurations
 #    -
         # Where should the widget be placed, left sidebar or right sidebar
