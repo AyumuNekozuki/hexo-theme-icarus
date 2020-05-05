@@ -13,7 +13,7 @@ module.exports = class extends Component {
 
         return <div class="card">
             <div class="card-content">
-                <h3 class="title is-5">{__('article.comments')}</h3>
+                <h3 class="title is-5"><i style="margin-right:0.5em;" class="fas fa-comment-alt"></i>{__('article.comments')}</h3>
                 {(() => {
                     try {
                         let Comment = view.require('comment/' + comment.type);
