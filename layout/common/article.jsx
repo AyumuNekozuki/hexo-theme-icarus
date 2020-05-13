@@ -42,6 +42,7 @@ module.exports = class extends Component {
                         <div class="level-left">
                             {/* Date */}
                             <time class="level-item" dateTime={date_xml(page.date)} title={date_xml(page.date)}>{date(page.date)}</time>
+                            {/*<span class="level-item"><i class="fas fa-play"></i>&nbsp;{popular_posts_pv(post)}</span>*/}
                             {/* Categories */}
                             {page.categories && page.categories.length ? <span class="level-item">
                                 {(() => {
