@@ -83,12 +83,26 @@ module.exports = class extends Component {
                             return <a class="link-muted mr-2" rel="tag" href={url_for(tag.path)}>{tag.name}</a>;
                         })}
                     </div>
-                    : null}
+                        : null}
                     {/* "Read more" button */}
                     {index && page.excerpt ? <a class="article-more button is-small size-small" href={`${url_for(page.path)}#more`}>{__('article.more')}</a> : null}
                     {/* Share button */}
-                    {!index ? <Share config={config} page={page} helper={helper} /> : null}
-
+                    {!index ? <div>
+                        <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                            <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                            <a class="a2a_button_twitter"></a>
+                            <a class="a2a_button_facebook"></a>
+                            <a class="a2a_button_line"></a>
+                            <a class="a2a_button_hatena"></a>
+                            <a class="a2a_button_mastodon"></a>
+                            <a class="a2a_button_copy_link"></a>
+                        </div>
+                        <script>
+                            var a2a_config = a2a_config || {};
+                            a2a_config.locale = "ja";
+                        </script>
+                        <script async src="https://static.addtoany.com/menu/page.js"></script>
+                    </div> : null}
                 </article>
             </div>
             {/* Donate button */}
