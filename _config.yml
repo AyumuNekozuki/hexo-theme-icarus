@@ -193,7 +193,7 @@ widgets:
                 url: 'https://twitter.com/nekozuki_2525'
             friends.cafe:
                 icon: fab fa-mastodon
-                url: 'https://friends.cafe/@nekozuki_2525'
+                url: 'https://mstdn.nekozuki.me/@nekozuki_2525'
             niconico:
                 icon: icon2-niconico
                 url: 'https://www.nicovideo.jp/user/45048152'
