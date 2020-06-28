@@ -57,7 +57,7 @@ head:
         description: 猫月あゆむの過去ログ倉庫
         # Page URL (optional)
         # You should leave this blank for most of the time
-        url: https://blog.nekozuki.me
+        url: 
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
         author: 猫月あゆむ
@@ -191,9 +191,6 @@ widgets:
             Twitter:
                 icon: fab fa-twitter
                 url: 'https://twitter.com/nekozuki_2525'
-            friends.cafe:
-                icon: fab fa-mastodon
-                url: 'https://mstdn.nekozuki.me/@nekozuki_2525'
             niconico:
                 icon: icon2-niconico
                 url: 'https://www.nicovideo.jp/user/45048152'
@@ -213,7 +210,6 @@ widgets:
         # Names and URLs of the sites
         links:
             Github: 'https://github.com/AyumuNekozuki'
-            猫月あゆむポータルサイト: 'https://nekozuki.me'
             リンク集: 'https://nekozuki.me/links'
             niconico: 'https://nicovideo.jp/user/45048152'
     # Categories widget configurations
