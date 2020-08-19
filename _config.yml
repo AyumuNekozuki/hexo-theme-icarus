@@ -76,9 +76,9 @@ navbar:
     # Naviagtion menu items
     menu:
         Home: /
-        Archives: /archives
-#        Categories: /categories
-        Tags: /tags
+        Archive: /archives
+        Category: /categories
+        Tag: /tags
         About: /about
     # Links to be shown on the right of the navigation bar
 #    links:
@@ -209,9 +209,8 @@ widgets:
         type: links
         # Names and URLs of the sites
         links:
-            Github: 'https://github.com/AyumuNekozuki'
-            リンク集: 'https://nekozuki.me/links'
             niconico: 'https://nicovideo.jp/user/45048152'
+            nekozuki.me: 'https://nekozuki.me/'
     # Categories widget configurations
 #    -
         # Where should the widget be placed, left sidebar or right sidebar
