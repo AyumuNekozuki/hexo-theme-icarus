@@ -18,22 +18,22 @@ head:
         title: 
         # Page type (og:type) (optional)
         # You should leave this blank for most of the time
-        type: blog
+        type: 
         # Page URL (og:url) (optional)
         # You should leave this blank for most of the time
         url: 
         # Page cover (og:image) (optional) Default to the Open Graph image or thumbnail of the page
         # You should leave this blank for most of the time
-        image: https://blog.nekozuki.me/img/favicon.png
+        image: 
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
-        site_name: ねころぐ
+        site_name: 
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
         author: 猫月あゆむ
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
-        description: ねころぐ - 猫月あゆむの過去ログ倉庫
+        description: 
         # Twitter card type (twitter:card)
         twitter_card: summary
         # Twitter ID (twitter:creator)
@@ -51,10 +51,10 @@ head:
     structured_data:
         # Page title (optional)
         # You should leave this blank for most of the time
-        title: ねころぐ
+        title: 
         # Page description (optional)
         # You should leave this blank for most of the time
-        description: 猫月あゆむの過去ログ倉庫
+        description: 
         # Page URL (optional)
         # You should leave this blank for most of the time
         url: 
@@ -63,7 +63,7 @@ head:
         author: 猫月あゆむ
         # Page images (optional) Default to the Open Graph image or thumbnail of the page
         # You should leave this blank for most of the time
-        image: /img/favicon.png
+        image: 
     # Additional HTML meta tags in an array
     meta:
         # Meta tag specified in <attribute>=<value> style
