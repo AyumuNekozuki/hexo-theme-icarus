@@ -159,6 +159,7 @@ module.exports = class extends Component {
             <script async src="https://unpkg.com/pwacompat" crossorigin="anonymous" />
 
             <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous" />
+            <script data-ad-client="ca-pub-7271400990150352" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
             
         </head>;
     }
