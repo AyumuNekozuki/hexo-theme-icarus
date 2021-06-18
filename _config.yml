@@ -30,7 +30,7 @@ head:
         site_name: 
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: 猫月あゆむ
+        author: 猫月遥歩（ねこづきあゆむ）
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
         description: 
@@ -60,7 +60,7 @@ head:
         url: 
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: 猫月あゆむ
+        author: 猫月遥歩（ねこづきあゆむ）
         # Page images (optional) Default to the Open Graph image or thumbnail of the page
         # You should leave this blank for most of the time
         image: 
@@ -173,7 +173,7 @@ widgets:
         position: right
         type: profile
         # Author name
-        author: 猫月あゆむ
+        author: 猫月遥歩
         # Author title
         author_title: AyumuNekozuki
         # Author's current location
@@ -188,12 +188,15 @@ widgets:
         follow_link: 'https://twitter.com/nekozuki_2525'
         # Links to be shown on the bottom of the profile widget
         social_links:
-            Twitter:
-                icon: fab fa-twitter
-                url: 'https://twitter.com/nekozuki_2525'
             niconico:
                 icon: icon2-niconico
                 url: 'https://www.nicovideo.jp/user/45048152'
+            Twitter:
+                icon: fab fa-twitter
+                url: 'https://twitter.com/nekozuki_2525'
+            friends.cafe:
+                icon: fab fa-mastodon
+                url: 'https://friends.cafe/@nekozuki_2525'
             RSS:
                 icon: fas fa-rss
                 url: /atom.xml
@@ -209,7 +212,7 @@ widgets:
         type: links
         # Names and URLs of the sites
         links:
-            niconico: 'https://nicovideo.jp/user/45048152'
+            ニコニコ: 'https://nicovideo.jp/user/45048152'
             nekozuki.me: 'https://nekozuki.me/'
     # Categories widget configurations
 #    -
